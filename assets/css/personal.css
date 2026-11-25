@@ -1,0 +1,25 @@
+body,
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+textarea,
+select {
+  font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif !important;
+}
+body {
+  line-height: 1.8;
+}
+.personal-portrait {
+  display: block;
+  border-radius: 8px;
+  object-fit: contain;
+}
+@media (max-width: 575px) {
+  .personal-portrait {
+    width: 112px !important;
+    margin: 0 0 16px 18px !important;
+  }
+}
