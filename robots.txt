@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://reverseNEHC.github.io/al-folio/sitemap.xml
