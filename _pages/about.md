@@ -1,34 +1,36 @@
 ---
 layout: about
-title: about
+title: 关于我
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+profile: false
+selected_papers: false
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+中国人民大学 · 硕士研究生
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## 个人简介
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+1. 我在哲学专业学习中锻炼了逻辑思维能力，能够拆解复杂问题，主动提出假设、检验解释并修正思路。
+2. 我具备适配 AI 产品与评测工作的能力基础。概念分析、判断条件设计和反例检验训练，可用于评测标准制定、边界用例设计与用户需求分析；同时，我具有大模型及 AI 编程工具使用经验，可以通过测试和反馈改进方案。
+3. 我思考严谨，重视证据。不停留于表面现象，关注数据何以支持理论预设，分析用户行为背后的动机与体验。
+
+## 研究兴趣
+
+- 干预主义因果理论
+- 模态主义知识论
+- 人工智能哲学
+
+## 精选论文
+
+{% include selected_papers.liquid %}
+
+[查看全部论文]({{ '/publications/' | relative_url }}) · [查看个人作品]({{ '/projects/' | relative_url }})
+
+## 联系方式
+
+[18850173178@163.com](mailto:18850173178@163.com) · [GitHub：reverseNEHC](https://github.com/reverseNEHC)
