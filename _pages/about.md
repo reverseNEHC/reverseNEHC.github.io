@@ -2,7 +2,10 @@
 layout: about
 title: 关于我
 permalink: /
-profile: false
+profile:
+  align: right
+  image: chen-xu.jpg
+  image_circular: false
 selected_papers: false
 social: true
 announcements:
@@ -29,7 +32,7 @@ latest_posts:
 
 {% include selected_papers.liquid %}
 
-[查看全部论文]({{ '/publications/' | relative_url }}) · [查看个人作品]({{ '/projects/' | relative_url }})
+[查看简历]({{ "/cv/" | relative_url }}) · [查看全部论文]({{ '/publications/' | relative_url }}) · [查看个人作品]({{ '/projects/' | relative_url }})
 
 ## 联系方式
 
