@@ -6,6 +6,8 @@ importance: 2
 category: work
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+
 个人作品 · HTML / CSS / JavaScript
 
 [查看 GitHub 仓库](https://github.com/reverseNEHC/match-record-tool)

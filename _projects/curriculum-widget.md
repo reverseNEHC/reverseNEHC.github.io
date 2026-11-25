@@ -6,6 +6,8 @@ importance: 1
 category: work
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+
 个人作品 · Electron / JavaScript
 
 [查看 GitHub 仓库](https://github.com/reverseNEHC/curriculum_1.0.0)

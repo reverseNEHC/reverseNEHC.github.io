@@ -6,6 +6,8 @@ importance: 3
 category: fun
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+
 个人作品 · Python / Flask / SQLite
 
 [查看 GitHub 仓库](https://github.com/reverseNEHC/worldcup-manager-1.0)

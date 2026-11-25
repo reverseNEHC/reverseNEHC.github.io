@@ -9,6 +9,8 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

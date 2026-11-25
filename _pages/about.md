@@ -2,10 +2,7 @@
 layout: about
 title: 关于我
 permalink: /
-profile:
-  align: right
-  image: chen-xu.jpg
-  image_circular: false
+profile: false
 selected_papers: false
 social: true
 announcements:
@@ -13,6 +10,10 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+
+<img class="personal-portrait" src="{{ '/assets/img/chen-xu.jpg' | relative_url }}" alt="陈序" width="160" height="222" style="width: 160px; max-width: 35%; height: auto; float: right; margin: 0 0 24px 28px;">
 
 中国人民大学 · 硕士研究生
 
